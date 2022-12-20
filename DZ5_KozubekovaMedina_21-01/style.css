@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid teal;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+}
+
+#crete_todo {
+    width: 200px;
+    height: 40px;
+    border: 2px solid teal;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+}
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.block_text {
+    width: 100%;
+    border: 2px solid teal;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    font-size: 28px;
+    font-family: "Franklin Gothic Medium";
+    overflow-wrap: break-word;
+}
+.delete,.edit {
+    background-color: rgb(159,6,6);
+    padding: 5px 10px;
+    border: 3px solid rgb(53,49,49);
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all .4s ease;
+    border-radius: 10px;
+}
+.delete:hover{
+    background-color: rgb(223,19,19);
+    transform: scale(1.14);
+ }
+.edit{
+     background-color: forestgreen;
+ }
+.edit:hover{
+     background-color: rgb(22,230,29);
+     transform: scale(1.14);
+ }
+.buttons{
+     width: 200px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+
+
