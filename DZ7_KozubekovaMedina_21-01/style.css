@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svetofor {
+    text-align: center;
+}
+.stolb {
+    background-color: rgb(14, 122, 144);
+    width: 120px;
+    height: 350px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.svet-title{
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(250, 243, 243);
+}
+.lampa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(4, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+}
